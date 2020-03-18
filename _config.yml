@@ -12,12 +12,12 @@ disqus_shortname:
 logo: /siteicon.png
 description: Product marketing template for Jekyll.
 author: Wyatt
-  name: Wyatt
-  email: wyatt
-  twitter: wyatt
-  name: Hydra Template
-  links: wyatt
-    - https://github.com/CloudCannon/hydra-jekyll-template
+name: Wyatt
+email: wyatt
+twitter: wyatt
+name: Hydra Template
+links: wyatt
+  - https://github.com/CloudCannon/hydra-jekyll-template
 
 # -----
 # Build
