@@ -21,13 +21,13 @@
   #  link: /
   #  new_window: true
 - links:
-  - name: Facebook
-    link: https://facebook.com/cloudcannon/
+  - name: LinkedIn
+    link: https://linkedIn.com/company/docforge/
     new_window: true
-    social_icon: Facebook
-  - name: Twitter
-    link: https://twitter.com/cloudcannon/
-    social_icon: Twitter
+    social_icon: LinkedIn
+  - name: Instagram
+    link: https://www.instagram.com/docforge/
+    social_icon: Instagram
     new_window: true
   #- name: YouTube
   #  link: https://youtube.com/cloudcannon/
