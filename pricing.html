@@ -1,58 +1,46 @@
 ---
 title: Pricing
 heading: Find the perfect plan for your business
-description: All plans include our award winning sales optimization solution to track your sales in real time.
+description: All plans include full core product functionality, providing the best documentation experience.
 pricing_table:
-  - name: Basic
-    color: "#8e8e8e"
+  - name: Team
+    color: "#FFDD69"
     features:
-      - text: $25 per month
+      - text: Completely Free
         highlight: true
       - text: Up to 5 users
         highlight: false
-      - text: Basic lead scoring
+      - text: Code intelligent features
         highlight: false
-      - text: CRM
-        highlight: false
-      - text: Basic reporting
-        highlight: false
-      - text: Sales map
+      - text: Core product functionality
         highlight: false
     call_to_action:
       link: http://mysite.com?plan=basic
       text: Get started
-  - name: Pro
-    color: "#4a4a4a"
+  - name: Professional
+    color: "#FF9133"
     features:
-      - text: $99 per month
+      - text: $15 per user per month
         highlight: true
-      - text: Everything in Basic
+      - text: Up to 100 users
         highlight: false
-      - text: Up to 25 users
+      - text: Everything in Team
         highlight: false
-      - text: Advanced lead scoring
-        highlight: false
-      - text: Pipeline management
-        highlight: false
-      - text: Advanced reporting
+      - text: Admin and User Accounts
         highlight: false
     call_to_action:
       link: http://mysite.com?plan=pro
       text: Get started
-  - name: Professional
-    color: "#000000"
+  - name: Enterprise
+    color: "#E14A4A"
     features:
-      - text: $299 per month
+      - text: Contact Us
         highlight: true
-      - text: Everything in Basic and Pro
+      - text: Over 100 users
         highlight: false
-      - text: Up to 100 users
+      - text: Everything in Team
         highlight: false
-      - text: Campaign builder
-        highlight: false
-      - text: Machine learning
-        highlight: false
-      - text: Calendar
+      - text: Custom features to fit needs
         highlight: false
     call_to_action:
       link: http://mysite.com?plan=professional
@@ -65,8 +53,13 @@ faq:
   - question: Do you offer pricing for nonprofit organizations?
     answer: Yes, send us a message and we'll set you up on our nonprofit pricing.
   - question: Questions?
-    answer: Contact us for any further questions at <a href="#">john@business.com</a>.
+    answer: Contact us for any further questions at <a href="#">contact@docforge.dev</a>.
 ---
+
+<!--"#8e8e8e"-->
+<!--"#4a4a4a"-->
+ <!--"#000000"-->
+
 <div class="plans">
 	{% for plan in page.pricing_table %}
 		<ul class="plan">
@@ -78,7 +71,7 @@ faq:
 			{% endfor %}
 
 			{% if plan.call_to_action %}
-				<li class="pricing-cta"><div class="button"><a style="background: {{ plan.color }}" href="{{ plan.call_to_action.link }}">{{ plan.call_to_action.text }} &rarr;</a></div></li>
+				<li class="pricing-cta"><div class="button"><a style="background: {{ plan.color }}" href="{{ site.baseurl }}/contact/">{{ plan.call_to_action.text }} &rarr;</a></div></li>
 			{% endif %}
 		</ul>
 	{% endfor %}
