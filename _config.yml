@@ -13,10 +13,10 @@ logo: /siteicon.png
 description: Product marketing template for Jekyll.
 author: Wyatt
   name: Wyatt
-  email:
-  twitter:
+  email: wyatt
+  twitter: wyatt
   name: Hydra Template
-  links:
+  links: wyatt
     - https://github.com/CloudCannon/hydra-jekyll-template
 
 # -----
