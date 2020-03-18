@@ -2,7 +2,7 @@
 # Site
 
 title: DocForge Website
-url: "https://www.docforge.dev"
+url: "https://wyattraich.github.io/DocForgeSite"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -11,11 +11,10 @@ disqus_shortname:
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
 description: Product marketing template for Jekyll.
-author: Wyatt Raich
-  name:
+author: Wyatt
+  name: Wyatt
   email:
-  twitter: # twitter username without the @ symbol
-social:
+  twitter:
   name: Hydra Template
   links:
     - https://github.com/CloudCannon/hydra-jekyll-template
