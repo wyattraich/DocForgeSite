@@ -155,7 +155,7 @@ blockquote:before { color: #ccc; content: open-quote; font-size: 4em; line-heigh
 
 @media (min-width: 768px) { .contact-box .contact-form, .contact-box .contact-details { -webkit-flex: 1; flex: 1; } }
 
-.contact-box .contact-details { font-size: .9em; }
+.contact-box .contact-details { font-size: .9em; color: #000; }
 
 .blog-posts { list-style: none; padding: 0; }
 
@@ -197,21 +197,21 @@ blockquote:before { color: #ccc; content: open-quote; font-size: 4em; line-heigh
 
 .blog-filter { text-align: center; }
 
-.blog-filter a { background: #eee; padding: 3px 5px; font-size: .8em; border-radius: 5px; color: #888; transition: .2s ease-in-out; }
+.blog-filter a { background: #FFDD69; padding: 3px 5px; font-size: .8em; border-radius: 5px; color: #444; transition: .2s ease-in-out; }
 
-.blog-filter a:hover { color: #555; text-decoration: none; }
+.blog-filter a:hover { color: #000; text-decoration: none; }
 
 .blog-filter.cross a { padding-right: 8px; }
 
 .blog-filter.cross a:after { content: "x"; font-size: .5em; position: relative; bottom: 4px; right: -3px; }
 
-.button a, input[type=submit] { color: #000; text-decoration: none; padding: 10px 30px; background: #D2D2D2; border-radius: 1px; border: 3px solid white; transition: .2s ease-in-out; }
+.button a, input[type=submit] { color: #000; text-decoration: none; padding: 10px 30px; background: #ffaf59; border-radius: 1px; border: 3px solid white; transition: .2s ease-in-out; }
 
-.button a:hover, input[type=submit]:hover { border: 1px solid rgba(100, 0, 100, 0.1); background: #D2D2D2; cursor: pointer; }
+.button a:hover, input[type=submit]:hover { border: 1px solid rgba(100, 0, 100, 0.1); background: #ffa23d; cursor: pointer; }
 
-.button.alt a { background: #D2D2D2; border-radius: 3px; border: 1px solid white; padding: 16px 50px; }
+.button.alt a { background: #ffe078; border-radius: 3px; border: 1px solid white; padding: 16px 50px; }
 
-.button.alt a:hover { background: #D2D2D2; border-radius: 3px; border: 1px solid rgba(255, 255, 255, 0.1); color: #aaa; }
+.button.alt a:hover { background: #ffe385; border-radius: 3px; border: 1px solid rgba(255, 255, 255, 0.1); color: #111; }
 
 textarea, input, button, select { font-family: inherit; font-size: inherit; }
 

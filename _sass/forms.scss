@@ -2,7 +2,7 @@
 	color: #000;
 	text-decoration: none;
 	padding: 10px 30px;
-	background: #D2D2D2;//$brand-color;
+	background: #ffaf59;//$brand-color;
 	border-radius: 1px;
 	border: 3px solid rgba(256,256,256,1);
 	transition: .2s ease-in-out;
@@ -10,22 +10,22 @@
 
 .button a:hover, input[type=submit]:hover {
 	border: 1px solid rgba(100,0,100,0.1);
-	background: #D2D2D2;//$secondary-brand-color;
+	background: #ffa23d;//$secondary-brand-color;
 	cursor: pointer;
 }
 
 .button.alt a {
-	background: #D2D2D2;//rgba(255,255,255,0.15);
+	background: #ffe078;//#FFDD69;//rgba(255,255,255,0.15);
 	border-radius: 3px;
 	border: 1px solid rgba(255, 255, 255, 1);
 	padding: 16px 50px;
 }
 
 .button.alt a:hover {
-	background: #D2D2D2;
+	background: #ffe385;
 	border-radius: 3px;
 	border: 1px solid rgba(255, 255, 255, 0.1);
-	color: #aaa;
+	color: #111;
 }
 
 textarea, input, button, select { font-family: inherit; font-size: inherit; }
